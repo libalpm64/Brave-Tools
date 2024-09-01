@@ -23,6 +23,9 @@ Tired of having crypto in your browser? Tired of preinstalled ads in a browser? 
 | `#ethereum_remote-client_new-installs`         | Disable Ethereum remote client for new installs.              | Disabled   |
 | `#brave-rewards-gemini`                        | Disable Gemini integration for Brave Rewards.                 | Disabled   |
 | `#native-brave-wallet`                         | Disable the native Brave wallet.                              | Disabled   |
+| `#brave-super-referral`                         | Disable the super referral background themes.                              | Disabled   |
+| `#brave-rewards-new-rewards-ui`                         | Disables the new rewards ui.                             | Disabled   |
+
 
 ### **AI Features**
 
@@ -34,14 +37,14 @@ Tired of having crypto in your browser? Tired of preinstalled ads in a browser? 
 | `#brave-ai-chat-page-content-refine`         | Disable page content refinement by AI chat.                  | Disabled   |
 | `#brave-ai-rewriter`                         | Disable AI content rewriter.                                 | Disabled   |
 
-### **Sync & News Feed**
+### **Other**
 
 | Flag                                          | Description                                                   | Status     |
 |-----------------------------------------------|---------------------------------------------------------------|------------|
-| `#brave-sync-v2`                             | Disable Brave Sync v2.                                       | Disabled   |
+| `#brave-sync-v2`                             | Disable Brave Sync (browser syncing feature) v2.                                       | Disabled   |
 | `#brave-news-feed-update`                    | Disable news feed updates.                                   | Disabled   |
 | `#brave-news-peek`                           | Disable news peek feature.                                   | Disabled   |
-
+| `#brave-ntp-search-widget`                         | Disables the annoying search bar at the bottom.                             | Disabled   |
 ## Power shell
 
 You can also run the PowerShell script provided to remove it entirely from its memory in runtime from launching or want Brave VPN gone. It may have unintended consequences, but so far from testing, I have not seen any issues.
