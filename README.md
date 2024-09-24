@@ -47,4 +47,4 @@ Tired of having crypto in your browser? Tired of preinstalled ads in a browser? 
 | `#brave-ntp-search-widget`                         | Disables the annoying search bar at the bottom.                             | Disabled   |
 ## Power shell
 
-You can also run the PowerShell script provided to remove it entirely from its memory in runtime from launching or want Brave VPN gone. It may have unintended consequences, but so far from testing, I have not seen any issues.
+You can also run the PowerShell script provided to remove it entirely from its memory in runtime from launching or want Brave VPN gone. It may have unintended consequences, but so far from testing, I have not seen any issues. Edit: It has some drawl backs it gives you a managed by organization it prevents you from doing DOH (DNS over HTTPS) I don't recommend using the powershell script use the revert back powershell script I added incase you need to go back.
