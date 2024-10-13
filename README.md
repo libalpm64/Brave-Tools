@@ -2,8 +2,6 @@
 
 Tired of having crypto in your browser? Tired of preinstalled ads in a browser? Tired of the AI features and prefer a 'legacy' browsing experience? Look no further—remove all the garbage: crypto scams, ads, AI chatbots from the Brave browser.
 
-
-
 ### **Ads & Crypto Integration**
 
 | Flag                                           | Description                                                   | Status     |
@@ -45,6 +43,36 @@ Tired of having crypto in your browser? Tired of preinstalled ads in a browser? 
 | `#brave-news-feed-update`                    | Disable news feed updates.                                   | Disabled   |
 | `#brave-news-peek`                           | Disable news peek feature.                                   | Disabled   |
 | `#brave-ntp-search-widget`                         | Disables the annoying search bar at the bottom.                             | Disabled   |
+
 ## Power shell
 
 You can also run the PowerShell script provided to remove it entirely from its memory in runtime from launching or want Brave VPN gone. It may have unintended consequences, but so far from testing, I have not seen any issues. Edit: It has some drawl backs it gives you a managed by organization it prevents you from doing DOH (DNS over HTTPS) I don't recommend using the powershell script use the revert back powershell script I added incase you need to go back.
+
+## Brave Adblocking
+Brave's adblock is Mediocore. Click on the adblock button. Click on filter list, then add custom filter list. Add custom filter list right click on each link and add them to your custom links.
+
+### uBlock filters:
+
+- Ads: [uBlock Ads](https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/filters.txt)  
+- Privacy: [uBlock Privacy](https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/privacy.txt)  
+- Quick fixes: [uBlock Quick Fixes](https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/quick-fixes.txt)  
+- Unbreak: [uBlock Unbreak](https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/unbreak.txt)  
+- Badware: [uBlock Badware](https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/badware.txt)  
+
+### Adguard Filters:
+
+- Adguard: [Adguard Base](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt)  
+- Adguard Tracking Protection: [Adguard Tracking](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt)  
+- Adguard Annoyance: [Adguard Annoyances](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt)  
+
+### Easylist:
+
+- Easylist: [Easylist](https://easylist.to/easylist/easylist.txt)  
+- Easylist Privacy: [Easylist Privacy](https://easylist.to/easylist/easyprivacy.txt)  
+- Easylist Cookies: [Easylist Cookies](https://secure.fanboy.co.nz/fanboy-cookiemonster.txt)  
+
+### Malware / Phising:
+
+- [Malware Filter](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter.txt)  
+- [Phishing Filter](https://malware-filter.gitlab.io/malware-filter/phishing-filter.txt)  
+
