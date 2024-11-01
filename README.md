@@ -1,58 +1,78 @@
-## Brave Debloat
-
-Tired of having crypto in your browser? Tired of preinstalled ads in a browser? Tired of the AI features and prefer a 'legacy' browsing experience? Look no further—remove all the garbage: crypto scams, ads, AI chatbots from the Brave browser.
-
-### **Ads & Crypto Integration**
-
-| Flag                                           | Description                                                   | Status     |
-|------------------------------------------------|---------------------------------------------------------------|------------|
-| `#brave-ads-should-launch-brave-ads-as-an-in-process-service` | Disable Brave Ads Service as an in-process service.          | Disabled   |
-| `#brave-ads-should-always-run-brave-ads-service` | Prevent Brave Ads Service from always running.               | Disabled   |
-| `#brave-ads-should-always-trigger-new-tab-page-ad-events` | Disable new tab page ad events.                              | Disabled   |
-| `#brave-ads-should-support-search-result-ads`  | Disable support for search result ads.                       | Disabled   |
-| `#brave-ads-should-always-trigger-search-result-ad-events` | Disable search result ad events.                             | Disabled   |
-| `#brave-ads-custom-push-notifications-ads`     | Disable custom push notifications ads.                        | Disabled   |
-| `#brave-ads-allowed-to-fallback-to-custom-push-notification-ads` | Prevent fallback to custom push notification ads.            | Disabled   |
-| `#brave-rewards-allow-self-custody-providers`  | Disable self-custody providers for Brave Rewards.             | Disabled   |
-| `#brave-wallet-zcash`                          | Disable Zcash wallet integration.                             | Disabled   |
-| `#brave-wallet-bitcoin`                        | Disable Bitcoin wallet integration.                           | Disabled   |
-| `#brave-wallet-enable-ankr-balances`           | Disable Ankr balance display.                                 | Disabled   |
-| `#brave-wallet-enable-transaction-simulations` | Disable transaction simulations.                              | Disabled   |
-| `#ethereum_remote-client_new-installs`         | Disable Ethereum remote client for new installs.              | Disabled   |
-| `#brave-rewards-gemini`                        | Disable Gemini integration for Brave Rewards.                 | Disabled   |
-| `#native-brave-wallet`                         | Disable the native Brave wallet.                              | Disabled   |
-| `#brave-super-referral`                         | Disable the super referral background themes.                              | Disabled   |
-| `#brave-rewards-new-rewards-ui`                         | Disables the new rewards ui.                             | Disabled   |
+# Better Brave Browser  Preview
+![image](https://github.com/user-attachments/assets/f61dedeb-80f5-4742-bef1-6a69087b3a2d)
 
 
-### **AI Features**
+# Synopsis
 
-| Flag                                          | Description                                                   | Status     |
-|-----------------------------------------------|---------------------------------------------------------------|------------|
-| `#brave-ai-chat`                             | Disable AI chat features.                                    | Disabled   |
-| `#brave-ai-chat-history`                     | Disable AI chat history.                                     | Disabled   |
-| `#brave-ai-chat-context-menu-rewrite-in-place` | Disable context menu rewrite for AI chat.                    | Disabled   |
-| `#brave-ai-chat-page-content-refine`         | Disable page content refinement by AI chat.                  | Disabled   |
-| `#brave-ai-rewriter`                         | Disable AI content rewriter.                                 | Disabled   |
 
-### **Other**
+### Tired of having crypto in your browser? Tired of preinstalled ads in a browser? Tired of the AI features and prefer a 'legacy' browsing experience? Look no further—remove all the garbage: crypto scams, ads, AI chatbots from the Brave browser.
 
-| Flag                                          | Description                                                   | Status     |
-|-----------------------------------------------|---------------------------------------------------------------|------------|
-| `#brave-sync-v2`                             | Disable Brave Sync (browser syncing feature) v2.                                       | Disabled   |
-| `#brave-news-feed-update`                    | Disable news feed updates.                                   | Disabled   |
-| `#brave-news-peek`                           | Disable news peek feature.                                   | Disabled   |
-| `#brave-ntp-search-widget`                         | Disables the annoying search bar at the bottom.                             | Disabled   |
 
-## Power shell
+## Appearance Settings
 
-You can also run the PowerShell script provided to remove it entirely from its memory in runtime from launching or want Brave VPN gone. It may have unintended consequences, but so far from testing, I have not seen any issues. Edit: It has some drawl backs it gives you a managed by organization it prevents you from doing DOH (DNS over HTTPS) I don't recommend using the powershell script use the revert back powershell script I added incase you need to go back.
+Show old homepage (chromes): brave://new-tab-page/
 
-## Brave Adblocking
-Brave's adblock is Mediocore. Click on the adblock button. Click on filter list, then add custom filter list. Add custom filter list right click on each link and add them to your custom links.
+![image](https://github.com/user-attachments/assets/454036d3-a101-4d9a-aac1-bf9b917aa1af)
 
-### uBlock filters:
+Copy the following settings.
 
+## Data collection (Under Privacy and settings)
+
+![image](https://github.com/user-attachments/assets/05f94aed-d9ae-4fef-b589-bd222f6103c0)
+
+
+## Brave Flags
+### Type this in the url bar: brave://flags/
+
+![image](https://github.com/user-attachments/assets/15763528-b20b-4ba1-aa3e-5fd0e99c1106)
+
+### Now this in the menu search each of the following in the flags bar and disable them:
+
+Flags list (Disable them):
+
+![image](https://github.com/user-attachments/assets/d39d10d2-5c3c-42c5-b6ac-90b4aafc3478)
+
+
+- #brave-cosmetic-filtering-sync-load
+- #brave-super-referral
+- #brave-rewards-verbose-logging
+- #brave-rewards-allow-unsupported-wallet-providers
+- #brave-rewards-allow-self-custody-providers
+- #brave-rewards-new-rewards-ui
+- #brave-rewards-animated-background
+- #brave-sync-v2
+- #native-brave-wallet
+- #brave-wallet-zcash
+- #brave-wallet-bitcoin
+- #brave-wallet-enable-ankr-balances
+- #brave-wallet-enable-transaction-simulations
+- #brave-news-peek
+- #brave-news-feed-update
+- #ethereum_remote-client_new-installs
+- #brave-rewards-gemini
+- #brave-ai-chat
+- #brave-ai-chat-history
+- #brave-ai-chat-context-menu-rewrite-in-place
+- #brave-ai-rewriter
+- #web-app-sync-generated-icon-background-fix
+- #web-app-sync-generated-icon-retroactive-fix
+- #web-app-sync-generated-icon-update-fix
+- #use-sync-sandbox
+- #enable-autofill-credit-card-upload
+- #enable-bound-session-credentials
+- #enable-bound-session-credentials-software-keys-for-manual-testing
+
+## uBlock filters:
+
+### Copy all the lists and add them to custom filtering lists.
+### Note: Brave does some wierd whitelisting thing so some ads might not get blocked even though it's in a block list.
+
+![image](https://github.com/user-attachments/assets/ad43d99c-c330-47e1-8593-54b6de5a2d29)
+
+
+![image](https://github.com/user-attachments/assets/3810ed7f-811b-43c7-927d-d0503af18155)
+
+## Links (They are hyper linked copy them by right clicking)
 - Ads: [uBlock Ads](https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/filters.txt)  
 - Privacy: [uBlock Privacy](https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/privacy.txt)  
 - Quick fixes: [uBlock Quick Fixes](https://raw.githubusercontent.com/uBlockOrigin/uAssets/refs/heads/master/filters/quick-fixes.txt)  
@@ -74,5 +94,8 @@ Brave's adblock is Mediocore. Click on the adblock button. Click on filter list,
 ### Malware / Phising:
 
 - [Malware Filter](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter.txt)  
-- [Phishing Filter](https://malware-filter.gitlab.io/malware-filter/phishing-filter.txt)  
+- [Phishing Filter](https://malware-filter.gitlab.io/malware-filter/phishing-filter.txt)
+
+
+
 
